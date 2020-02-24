@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/create-release"
+    "url": "git+https://github.com/juitnow/github-action-create-release"
   },
   "keywords": [
     "actions",
@@ -20,22 +20,22 @@
   "author": "GitHub",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.0.0",
-    "@actions/exec": "^1.0.0",
-    "@actions/github": "^1.0.0"
+    "@actions/core": "^1.2.2",
+    "@actions/exec": "^1.0.3",
+    "@actions/github": "^2.1.1"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.20.4",
-    "eslint": "^5.13.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^3.6.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-prettier": "^2.7.0",
-    "eslint-plugin-react": "^7.12.4",
-    "jest": "^24.8.0",
-    "prettier": "^1.16.4",
-    "husky": "^3.0.5"
+    "@zeit/ncc": "^0.21.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "husky": "^4.2.3"
   },
   "jest": {
     "testEnvironment": "node",
