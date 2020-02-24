@@ -1,6 +1,6 @@
-name: 'Create a Release'
-description: 'Create a release for a tag in your repository'
-author: 'GitHub'
+name: 'Create a Release with a Commit-ish'
+description: 'Create a release for a tag in your repository using the correct (implied or specified) commit-ish'
+author: 'Juit GmbH'
 inputs:
   tag_name:
     description: 'The name of the tag. This should come from the webhook payload, `github.GITHUB_REF` when a user pushes a new tag'
@@ -34,4 +34,4 @@ runs:
   main: 'dist/index.js'
 branding:
   icon: 'tag'
-  color: 'gray-dark'
+  color: 'yellow'
