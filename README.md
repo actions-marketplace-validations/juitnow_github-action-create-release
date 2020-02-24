@@ -91,10 +91,10 @@ This uses the `GITHUB_TOKEN` provided by the
 [virtual environment](https://help.github.com/en/github/automating-your-workflow-with-github-actions/virtual-environments-for-github-actions#github_token-secret),
 so no new token is needed.
 
-> **NOTE:** When using the `GITHUB_TOKEN` provided, no additional workflows will
-> be triggered within GitHub itself. If the `release` event needs to trigger an
-> additional workflow, then a _different_ token **MUST** be used (for example a
-> personal token passed via a [secret](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets).
+> **NOTE:** When using the `GITHUB_TOKEN` provided, [no additional workflows](https://github.community/t5/GitHub-Actions/Triggering-a-new-workflow-from-another-workflow/td-p/31676)
+> will > be triggered within GitHub itself. If the `release` event needs to
+> trigger an additional workflow, then a _different_ token **MUST** be used
+> (for example a personal token passed via a [secret](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets).
 
 ## Contributing
 
